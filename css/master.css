@@ -1,0 +1,25 @@
+.thenavbar{
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+
+.jumbo, h3, .star, footer{
+  text-align: center;
+}
+
+.bg-green{
+  background: #1abc9c;
+  color: #fff;
+}
+
+.jumbo img{
+  height: 200px;
+}
+
+footer{
+  background: 	#3a546d;
+}
+
+footer row:last-child{
+  background: #2c3e50;
+}
