@@ -1,23 +1,5 @@
-.thenavbar{
-  height: 80px;
-  border-bottom: 1px solid black;
-}
-
 .jumbo{
-  padding: 20px 0;
-}
-
-.jumbo, h3, .star, footer{
-  text-align: center;
-}
-
-.portfolio img{
-  border-radius: 10%;
-  margin: 20px 0;
-}
-
-.portfolio .star {
-  color: #2c3e50;
+  padding: 50px 0;
 }
 
 .bg-green{
@@ -29,27 +11,46 @@
   height: 400px;
 }
 
-
-
-.footer-top{
-  background: 	#3a546d;
-  padding: 30px 0;
+.star{
+  margin: 30px 0;
 }
 
-.footer-top a i{
-  color: #fff;
+.blue{
+  color: #2c3e50;
 }
 
-.footer-top a{
-  color: #1bb99b;
+.portfolio{
+  margin: 30px 0;
+}
+
+.portfolio img{
+  border-radius: 10%;
+  margin: 20px 0;
+}
+
+.about{
+  padding: 50px 0;
 }
 
 footer{
   color: #fff;
 }
 
+.footer-top{
+  background: #3a546d;
+  padding: 30px 0;
+}
+
+.footer-top a{
+  color: #1fac94;
+}
+
+.footer-top a i{
+  color: #fff;
+}
+
 .footer-bottom{
-  height: 80px;
-  line-height: 80px;
   background: #2c3e50;
+  padding: 30px 0;
+  font-size: 12px;
 }
