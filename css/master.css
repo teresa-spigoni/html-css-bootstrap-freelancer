@@ -3,8 +3,17 @@
   border-bottom: 1px solid black;
 }
 
+.jumbo{
+  padding: 20px 0;
+}
+
 .jumbo, h3, .star, footer{
   text-align: center;
+}
+
+.portfolio img{
+  border-radius: 10%;
+  margin: 20px 0;
 }
 
 .bg-green{
@@ -13,8 +22,10 @@
 }
 
 .jumbo img{
-  height: 200px;
+  height: 400px;
 }
+
+
 
 footer{
   background: 	#3a546d;
