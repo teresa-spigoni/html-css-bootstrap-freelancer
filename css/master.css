@@ -106,12 +106,26 @@ footer{
   padding: 30px 0;
 }
 
+.ts-col-footer{
+  margin: 10px 0;
+}
+
 .footer-top a{
   color: #1fac94;
 }
 
 .footer-top a i{
   color: #fff;
+}
+
+.icons{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
 }
 
 .footer-bottom{
