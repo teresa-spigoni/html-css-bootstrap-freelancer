@@ -1,7 +1,7 @@
 .ts-nav{
   background: #2c3e50;
-  margin: 0;
   border: none;
+  margin-bottom: 0;
 }
 
 .ts-nav .navbar-brand, .ts-nav .navbar-nav > li > a{
@@ -49,10 +49,10 @@
 .star::after, .star::before{
   content: "";
   display: inline-block;
-  width: 100px;
+  width: 70px;
   height: 4px;
   border-radius: 2px;
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 .star-white::after, .star-white::before{
@@ -76,6 +76,17 @@
   padding: 50px 0;
 }
 
+.about p{
+  padding: 0 40px;
+}
+
+.ts-btn-type-1{
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-top: 10px;
+}
+
 .ts-contacts{
   padding: 30px 0;
 }
@@ -90,7 +101,7 @@
   color: #2c3e50;
 }
 
-.ts-btn{
+.ts-btn-type-2{
   background: #1abc9c;
   color: #fff;
   border: none;
@@ -107,7 +118,7 @@ footer{
 }
 
 .ts-col-footer{
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .footer-top a{
@@ -125,7 +136,7 @@ footer{
   border: 1px solid #fff;
   border-radius: 50%;
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 3px;
 }
 
 .footer-bottom{
