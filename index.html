@@ -4,29 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/master.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" class="favicon">
     <title>Freelancer</title>
   </head>
   <body>
-
-    <!-- general Container -->
     <div class="container-fluid">
 
-      <!-- Header -->
+      <!-- Header Section -->
       <header>
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-default navbar-static-top ts-nav blue row">
+        <nav class="navbar navbar-default navbar-static-top row ts-nav blue">
           <div class="container">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
               <a class="navbar-brand" href="#">START BOOTSTRAP</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -38,16 +34,14 @@
             </div>
           </div>
         </nav>
-        <!-- /Navbar -->
 
       </header>
-      <!-- /Header -->
 
-      <!-- Main -->
+      <!-- Main Section -->
       <main>
 
-        <!-- Jumbotron -->
-        <div class="row jumbo bg-green c-white">
+        <!-- Jumbotron Section -->
+        <section class="row jumbotron bg-green c-white">
           <div class="text-center col-xs-12">
             <img src="img/avatar.svg" alt="avatar">
             <h1>START BOOTSTRAP</h1>
@@ -55,12 +49,11 @@
             </div>
             <div class="">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
           </div>
-        </div>
-        <!-- /Jumbotron -->
+        </section>
 
-        <!-- Portfolio -->
-        <div class="container">
-          <div class="row portfolio text-center">
+        <!-- Portfolio Section -->
+        <section class="container">
+          <div class="row text-center portfolio">
             <h3>PORTFOLIO</h3>
             <div class="star star-blue"><i class="fa fa-star fa-2x"></i></div>
             <img src="img/home.png" alt="home" class="col-xs-12 col-sm-6 col-md-4">
@@ -70,11 +63,10 @@
             <img src="img/safe.png" alt="safe" class="col-xs-12 col-sm-6 col-md-4">
             <img src="img/submarine.png" alt="submarine" class="col-xs-12 col-sm-6 col-md-4">
           </div>
-        </div>
-        <!-- /Portfolio -->
+        </section>
 
-        <!-- About -->
-        <div class="bg-green c-white row">
+        <!-- About Section -->
+        <section class="bg-green c-white row">
           <div class="container about">
             <div class="row">
               <h3 class="text-center">ABOUT</h3>
@@ -92,72 +84,75 @@
               </div>
             </div>
           </div>
-        </div>
-        <!-- /About -->
+        </section>
 
-        <!-- Contacts -->
-        <div class="container ts-contacts">
+        <!-- Contacts Section -->
+        <section class="container ts-contacts">
           <h3 class="text-center">CONTACT ME</h3>
-          <div class="star star-blue text-center"><i class="fa fa-star fa-2x"></i></div>
-          <form class="ts-form col-xs-6 col-xs-offset-3">
-            <div class="form-group">
-              <input type="email" class="form-control" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <input type="email" class="form-control" placeholder="Address">
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control" placeholder="Phone Number">
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" rows="7" placeholder="Message"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-default ts-btn-type-2 c-white bg-green">Send</button>
-          </form>
-        </div>
-        <!-- /Contacts -->
+          <div class="text-center star star-blue"><i class="fa fa-star fa-2x"></i></div>
+          <div class="row">
+            <form class="ts-form col-xs-6 col-xs-offset-3">
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Address">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Phone Number">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="7" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-default ts-btn-type-2 c-white bg-green">Send</button>
+            </form>
+          </div>
+        </section>
 
       </main>
-      <!-- /Main -->
 
-      <!-- Footer -->
+      <!-- Footer Section -->
       <footer class="text-center c-white">
         <div class="row footer-top">
+          
           <div class="container">
-            <div class="col-xs-12 col-sm-4 ts-col-footer">
-              <h5>LOCATION</h5>
-              2215 John Daniel Drive Clark, MO 54243
-            </div>
-            <div class="col-xs-12 col-sm-4 ts-col-footer">
-              <h5>AROUND THE WEB</h5>
-              <div class="icons">
-                <a href="#"><i class="fa fa-facebook c-white"></i></a>
+            <div class="row">
+
+              <div class="col-xs-12 col-sm-4 ts-col-footer">
+                <h5>LOCATION</h5>
+                2215 John Daniel Drive Clark, MO 54243
               </div>
-              <div class="icons">
-                <a href="#"><i class="fa fa-google-plus c-white"></i></a>
+
+              <div class="col-xs-12 col-sm-4 ts-col-footer">
+                <h5>AROUND THE WEB</h5>
+                <div class="icons">
+                  <a href="#"><i class="fa fa-facebook c-white"></i></a>
+                </div>
+                <div class="icons">
+                  <a href="#"><i class="fa fa-google-plus c-white"></i></a>
+                </div>
+                <div class="icons">
+                  <a href="#"><i class="fa fa-twitter c-white"></i></a>
+                </div>
+                <div class="icons">
+                  <a href="#"><i class="fa fa-linkedin c-white"></i></a>
+                </div>
               </div>
-              <div class="icons">
-                <a href="#"><i class="fa fa-twitter c-white"></i></a>
+
+              <div class="col-xs-12 col-sm-4 ts-col-footer">
+                <h5>ABOUT FREELANCER</h5>
+                Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.
               </div>
-              <div class="icons">
-                <a href="#"><i class="fa fa-linkedin c-white"></i></a>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 ts-col-footer">
-              <h5>ABOUT FREELANCER</h5>
-              Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.
+
             </div>
           </div>
         </div>
+
         <div class="row footer-bottom blue">
           Copyright <i class="fa fa-copyright"></i> Your Website 2019
         </div>
       </footer>
-      <!-- /Footer -->
 
     </div>
-    <!-- /General Container -->
-
   </body>
 </html>
